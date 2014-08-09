@@ -9,10 +9,8 @@ Dolly
 
 ---
 
--------------------
-
 Getting Started
----
+-------------------
 
 Dolly allows you to easily clone **all** of your repositories in one fell swoop. After installing Dolly globally with `npm install node-dolly -g` you will have the `dolly` command in your `$PATH`.
 
