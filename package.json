@@ -1,5 +1,5 @@
 {
-  "name": "dolly",
+  "name": "node-dolly",
   "version": "0.1.0",
   "description": "Useful app for cloning all of your public repositories.",
   "main": "bin/Dolly.js",
