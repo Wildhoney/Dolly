@@ -1,0 +1,29 @@
+{
+  "name": "dolly",
+  "version": "0.1.0",
+  "description": "Useful app for cloning all of your public repositories.",
+  "main": "bin/Dolly.js",
+  "bin": {
+    "dolly": "Dolly.js"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wildhoney/Dolly.git"
+  },
+  "keywords": [
+    "clone",
+    "repos",
+    "repositories",
+    "github",
+    "api"
+  ],
+  "author": "Adam Timberlake <adam.timberlake@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wildhoney/Dolly/issues"
+  },
+  "homepage": "https://github.com/Wildhoney/Dolly"
+}
