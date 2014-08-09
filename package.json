@@ -7,7 +7,7 @@
     "dolly": "Dolly.js"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/Wildhoney/Dolly/issues"
   },
-  "homepage": "https://github.com/Wildhoney/Dolly"
+  "homepage": "https://github.com/Wildhoney/Dolly",
+  "dependencies": {
+    "gulp": "^3.8.7",
+    "gulp-jshint": "^1.8.4",
+    "jshint-stylish": "^0.4.0"
+  }
 }
