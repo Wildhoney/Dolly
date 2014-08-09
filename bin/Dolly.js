@@ -103,10 +103,10 @@
             repositories.forEach(function forEach(repository, index) {
 
                 // Notify the user about which repository we're currently cloning.
-                cloneNotification(repository.name, repository['ssh_url'], (index + 1), repositories.length);
+                cloneNotification(repository.name, repository[parameters.property || 'ssh_url'], (index + 1), repositories.length);
 
                 // Begin the process of cloning the discovered repository.
-                exec(util.format('git clone %s', repository['ssh_url']));
+                exec(util.format('git clone %s', repository[parameters.property || 'ssh_url']));
                 
             });
 

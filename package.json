@@ -27,8 +27,12 @@
   },
   "homepage": "https://github.com/Wildhoney/Dolly",
   "dependencies": {
+    "cli-color": "^0.3.2",
     "gulp": "^3.8.7",
     "gulp-jshint": "^1.8.4",
-    "jshint-stylish": "^0.4.0"
+    "jshint-stylish": "^0.4.0",
+    "optimist": "^0.6.1",
+    "pretty-error": "^1.1.1",
+    "request": "^2.40.0"
   }
 }
