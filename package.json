@@ -4,7 +4,7 @@
   "description": "Useful app for cloning all of your public repositories.",
   "main": "bin/Dolly.js",
   "bin": {
-    "dolly": "Dolly.js"
+    "dolly": "bin/Dolly.js"
   },
   "scripts": {
     "test": "gulp test"
