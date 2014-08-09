@@ -7,6 +7,8 @@ Dolly
 
 * **npm:** `npm install node-dolly -g`
 
+![Dolly Screenshot](http://i.imgur.com/2F9Kraw.png)
+
 ---
 
 Getting Started
