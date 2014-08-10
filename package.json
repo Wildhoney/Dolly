@@ -1,6 +1,6 @@
 {
   "name": "node-dolly",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Useful app for cloning all of your public repositories.",
   "main": "bin/Dolly.js",
   "bin": {
