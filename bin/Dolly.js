@@ -48,7 +48,7 @@
     if (parameters._.length === 0) {
 
         // Ensure the username argument exists!
-        return console.log(new PrettyError().render(new Error('Dolly: You neglected to supply a username.')));
+        return console.log(new PrettyError().render(new Error('Dolly: You neglected to supply a username/organisation.')));
 
     }
 
@@ -56,7 +56,7 @@
      * @constant API_ENDPOINT
      * @type {String}
      */
-    var API_ENDPOINT = 'https://api.github.com/users/%s/repos';
+    var API_ENDPOINT = 'https://api.github.com/%s/%s/repos';
 
     /**
      * @method CloneRepositories
@@ -112,6 +112,6 @@
 
         });
 
-    })(util.format(API_ENDPOINT, parameters._));
+    })(util.format(API_ENDPOINT, parameters.organisation ? 'orgs' : 'users', parameters._));
 
 })();

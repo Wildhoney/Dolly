@@ -21,3 +21,5 @@ First you can try to run `dolly` without any parameters, and it *should* tell yo
 Therefore run the command `dolly Wildhoney` to clone all my repositories &ndash; substituting Wildhoney if you really must.
 
 By default `Dolly` will attempt to clone the repositories via the `ssh_url` property in the API response &ndash; however there may be cases where you wish to use a different URL &ndash; by specifying the `--property` parameter you can choose another property to use for the cloning: `dolly Wildhoney --property clone_url`.
+
+You may wish to clone the repositories of your organisation rather than user, in which case you can supply the `--organisation` option.
